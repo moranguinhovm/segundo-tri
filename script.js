@@ -6,72 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está desenvolvendo um novo aplicativo para ajudar pessoas com deficiências motoras. A nova tecnologia utiliza IA para tornar o aplicativo mais acessível. Qual a primeira funcionalidade que você gostaria de implementar?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Controle por voz para permitir que usuários interajam sem usar as mãos.",
+                afirmacao: "Você acredita que o controle por voz pode tornar o aplicativo muito mais acessível e fácil de usar."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Um sistema de previsão de texto para facilitar a digitação.",
+                afirmacao: "Você considera que um sistema de previsão de texto pode acelerar a comunicação para aqueles que têm dificuldades motoras."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Durante a fase de testes, um usuário com deficiência motora sugere a adição de uma funcionalidade baseada em IA que aprenda e se adapte às suas necessidades específicas. O que você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Implementa a funcionalidade e solicita feedback contínuo do usuário para ajustar o aplicativo às suas necessidades.",
+                afirmacao: "Você entende que a personalização contínua é crucial para a acessibilidade e inclusão."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Decide que a funcionalidade atual é suficiente e não faz mudanças baseadas no feedback do usuário.",
+                afirmacao: "Você acredita que a funcionalidade padrão é adequada e que modificações adicionais não são necessárias."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "O aplicativo está quase pronto, mas você precisa decidir sobre a integração de um assistente virtual baseado em IA para ajudar com comandos e navegação. Qual seria a sua abordagem?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Incorpora um assistente virtual com capacidade de resposta por voz e suporte a comandos de texto.",
+                afirmacao: "Você vê o assistente virtual como uma ferramenta vital para aumentar a acessibilidade e a facilidade de uso do aplicativo."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Opta por não incluir um assistente virtual e foca em melhorar a interface de usuário com opções tradicionais de acessibilidade.",
+                afirmacao: "Você acredita que melhorias na interface são suficientes para garantir a acessibilidade sem a necessidade de um assistente virtual."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Após o lançamento do aplicativo, você recebe feedback sobre a necessidade de um recurso de personalização de interfaces baseado em IA. Como você responde a isso?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Desenvolve e implementa o recurso de personalização para garantir que todos os usuários possam adaptar a interface às suas necessidades.",
+                afirmacao: "Você vê a personalização como uma forma importante de garantir que o aplicativo possa atender às diversas necessidades dos usuários."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Decide adiar a implementação de novas personalizações e foca em promover as funcionalidades existentes.",
+                afirmacao: "Você acredita que as funcionalidades atuais são adequadas e que a personalização pode ser considerada em uma futura atualização."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Um usuário solicita a integração de um recurso de IA para análise de dados e sugestões de melhorias com base em suas interações. O que você faz?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Implementa o recurso de análise de dados e sugestões para aprimorar continuamente o aplicativo com base no feedback do usuário.",
+                afirmacao: "Você acredita que a análise de dados pode ajudar a adaptar o aplicativo e melhorar a experiência do usuário."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Opta por não incluir o recurso e continua com o aplicativo conforme foi lançado.",
+                afirmacao: "Você acha que o aplicativo já atende bem às necessidades dos usuários e que adicionar mais recursos pode ser desnecessário."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -105,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Resumo do impacto da IA na acessibilidade...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
